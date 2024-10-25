@@ -1,10 +1,15 @@
 body {
     background-image: url("https://pg-media-group.github.io/Pg-media-group-Discord-server-assets/static%20(1).png");
     background-attachment: fixed;
-    background-position: 50% 50%;
+    background-position: absolute;
     color: white;
     background-color: black;
     row-gap: 50px;
+    background-height: 100%;
+    background-width: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: -1;
     
   }
   
